@@ -51,7 +51,7 @@ app.post('/register',function(req,res){
     }
 res.json(status);
 });
-app.listen(3500,function(){
+app.listen(2000,function(){
     mongoConnect();
     console.log('server ready')
 })
